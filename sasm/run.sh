@@ -10,4 +10,4 @@ docker run -it --privileged \
     -v "$HOME/.config/SASM Project/SASM.conf":"/root/.config/SASM Project/SASM.conf" \
     -e QT_X11_NO_MITSHM=1 \
     --name sasm \
-    abhishekmishra/sasm:latest sasm
+    abhishekmishra3/sasm:latest sasm

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t abhishekmishra/sasm .
+docker build -t abhishekmishra3/sasm .
