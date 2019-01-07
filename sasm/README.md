@@ -6,7 +6,7 @@ This docker image builds from master branch of SASM repo, on a debian base. You 
 ## Running SASM in docker
 
 ```
-docker run -it --privileged \
+docker run --rm -it --privileged \
     --net host \
     --memory 512mb \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
